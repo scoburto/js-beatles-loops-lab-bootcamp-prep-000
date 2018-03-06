@@ -17,8 +17,8 @@ function johnLennonFacts(list) {
 
 function iLoveTheBeatles(digit) {
   var slate = [];
-  do-while(digit<15){
-    slate.push("I love the Beatles!");
+  do {slate.push("I love the Beatles!")} while (digit<15){
+    
   }
   return slate;
 }
