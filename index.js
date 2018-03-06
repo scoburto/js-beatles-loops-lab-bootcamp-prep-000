@@ -3,6 +3,7 @@ function theBeatlesPlay(music,tool) {
   for (var i=0; i<music.length;i++) {
     slate[i] = music[i] + 'plays' + tool[i];
   }
+  return slate;
 }
 
 function johnLennonFacts(list) {
