@@ -1,7 +1,7 @@
 function theBeatlesPlay(music,tool) {
   var slate = [];
   for (var i=0; i<music.length;i++) {
-    slate[i] = '${music[i]} plays ${tool[i]}';
+    slate[i] = music[i] + 'plays'+ tool[i];
   }
 }
 
